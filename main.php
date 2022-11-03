@@ -6,8 +6,8 @@
     function printForm($value, $index){
         echo "<form class=\"added-task\" method=\"POST\">
                     <input type=\"hidden\" name=\"newtask\"  value=\"$value\">
-                    <input type=\"text\" value=\"$index: $value\" disabled>
-                    <input type=\"submit\" name=\"delete\" value=\"DELETE\" class=\"btns\">
+                    <input type=\"text\" class=\"newtask\" value=\"$index: $value\" disabled>
+                    <input type=\"submit\" name=\"delete\" value=\"DELETE\" class=\"btn-delete\">
               </form>";          
     }
 

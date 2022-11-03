@@ -23,7 +23,7 @@ body, html{
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 45%;
+    width: 50%;
     margin: auto;
     background:mediumturquoise;
     padding: 2rem;
@@ -31,58 +31,80 @@ body, html{
     flex-direction: column;
   
 }
-
-form{
-    display: flex;
-    align-items: center;
-    gap:20px
+input{
+    outline: none;
 }
 
-input[type=text]{
-    border: dotted cornflowerblue;
-    padding: 15px;
-    height: 8vh;
-    width: 65vh;
-    font-size: 25px;
-    outline:none;
+.btn-box{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    width: 80%;
+  
+}
+.task{
+    width:100%;
+    height:5vh;
     border-radius: 10px;
+    border: dotted rgb(38, 117, 178);
+    font-size: 30px;
+    padding: 20px;
 }
 
-form input[type=submit]{
+.btn-add{
     border:none;
-    padding: 10px;
-    font-size:15px;
-    border-radius: 10px;
+    border-radius:10px;
+    font-size:20px;
+    padding:10px;
+    background-color: rgb(26, 106, 26);
     color:white;
-    background-color: rgb(11, 91, 11);
-}
-
-
-
-.task-box input[type=text]{
-    background-color: white;
-}
-
-
-
-.added-task input[type="text"]{
-    background: white;
-    font-weight: 700;
-    color:black;
-    margin-top:10px;
-    width:auto;
-}
-
-.added-task input[type="submit"]{
-    color:white;
-    background-color: rgb(141, 28, 28);
 }
 
 .add-box{
-    padding: 1.5rem;
+    margin-top:10px;
+    width:80%;
+    padding:10px;
     background-color: antiquewhite;
-    margin-top: 1.2rem;
-    border-radius: 20px;
+    border-radius: 15px;
 }
+
+.added-task{
+    display:flex;
+ 
+    justify-content: center;
+    margin-top:10px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.newtask{
+    display:flex;
+    width:60%;
+    height: 5vh;
+    padding:18px;
+    padding-left:10px;
+    border: dotted rgb(38, 117, 178);
+    border-radius: 10px;
+    background-color: white;
+    font-size:25px;
+    font-weight:750;
+    text-transform: uppercase;
+    color:black
+}
+
+.btn-delete{
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    padding:6px;
+    background-color: rgb(143, 22, 22);
+    color:white;
+}
+
+
+
+
+
 
 

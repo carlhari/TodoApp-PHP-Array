@@ -20,9 +20,10 @@
                 <input type="text" class="task" name="task" placeholder="Write your Task" required>
             </div>
 
-            <input type="submit" name="add" value="ADD" class="btns" id="add">
+            <input type="submit" name="add" value="ADD" class="btn-add" id="add">
             
         </form>
+
         <div class="add-box">
             <?php include 'main.php'?>
         </div>
